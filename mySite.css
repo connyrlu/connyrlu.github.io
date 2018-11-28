@@ -1,0 +1,121 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 18px;
+	font-family: "OpenSans", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #255;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+	position: relative;
+	opacity: 0.40;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.pimg1{
+	background-image: url("sky.png");
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url("wallpaper.png");
+	min-height: 400px;
+}
+
+.pimg3{
+	background-image: url("resumesectionpic.jpg");
+	min-height: 400px;
+}
+
+.pimg4{
+	background-image: url("nycskyline.png");
+	min-height: 400px;
+}
+
+.pimg5{
+	background-image: url("imagefour.jpg");
+	min-height: 400px;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #FFFFFF;
+	color: #666;
+}
+
+.section-blue{
+	background-color: #f0f8ff;
+	color: #666;
+}
+
+.section-dark{
+	background-color: #cccccc;
+	color: #666;
+}
+
+.section-gray{
+	background-color: #f2f2f2;
+	color: #666;
+}
+
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	font-size: 60px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.ptext .border{
+	background-color: #111;
+	color: #ffffff;
+	padding: 10px;
+}
+
+.icon-bar{
+	width: 1px;
+	height: 1px;
+	display: inline;
+}
+.icon-bar a{
+text-align: center;
+	padding: 10px;
+	transition: all 0.3s ease;
+	color: white;
+}
+.icon-bar:hover {opacity: 1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
